@@ -1,5 +1,6 @@
 # python_web
-## 涉及方法及框架
+## Referenced packages and frames
 http.server,flask,django
 ## flask
-- 参考网易公开课相关教程进行学习
+- 1. inherit and blocks
+  - This is a very good desigin which can depress the work
