@@ -1,38 +1,20 @@
-<!DOCTYPE <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Home</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-    .nav{
-        background: #3a3a3a;
-        height: 65px
-    }
-    ul{overflow: hidden;}
-    ul li{
-        float: left;
-        list-style: none;
-        padding: 0 10px;
-        line-height: 65px
-    }
-    ul a{
-        color: aliceblue
-    }
-    
-    </style>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 
 <body>
-    <div class="nav">
-        <ul>
-            <li><a href="#">首页</a></li>
-            <li><a href="#">问答</a></li>
-        </ul>
+    <div>
+        <form method="post" enctype="multipart/form-data">
+            <input type="file" size="30" name="photo" />
+            <br>
+            <input type="text" class="txt_input" name="name" style="margin-top:15px;" />
+            <input type="submit" value="提交信息" class="button-new" style="margin-top:15px;" />
+        </form>
     </div>
-    <h1>首页内容</h1>
 </body>
 
 </html>
